@@ -28,17 +28,14 @@ const menuItems = [
 export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full h-[80px] bg-white border-b border-b-gray-100 flex items-center">
-      <GridContainer className="flex items-center justify-between">
-        <div className="flex items-center gap-20">
-          {/* Logo */}
+      <GridContainer className="flex items-center justify-center">
+        <div className="flex items-center gap-10">
           <Image
             src="/logo.svg"
             width={45}
             height={32}
             alt="Logo Untitled UI"
           />
-
-          {/* Navegação */}
           <nav className="flex items-center gap-8">
             {menuItems.map(({ url, title, dropdown }, index) => (
               <ItemMenu
@@ -53,4 +50,4 @@ export function Header() {
       </GridContainer>
     </header>
   );
-}
+};
