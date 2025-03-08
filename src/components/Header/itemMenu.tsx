@@ -11,11 +11,11 @@ export function ItemMenu({ url, title, hasDropdown }: ItemMenuProps) {
   return (
     <Link
       href={url}
-      className="flex items-center gap-2 font-semibold text-gray-600 hover:opacity-50 transition-opacity"
+      className="flex items-center gap-2 font-semibold text-gray-700 hover:opacity-50 transition-opacity"
     >
       {title}
       {hasDropdown && (
-        <FiChevronDown className="text-gray-600 hover:opacity-50 transition-opacity" />
+        <FiChevronDown className="text-gray-700 hover:opacity-50 transition-opacity" />
       )}
     </Link>
   );

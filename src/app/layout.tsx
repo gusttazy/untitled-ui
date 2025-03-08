@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Ubuntu } from "next/font/google";
+import { Open_Sans } from "next/font/google";
 import "./globals.css";
 
-const ubuntu = Ubuntu({
-  variable: "--font-ubuntu",
+const openSans = Open_Sans({
+  variable: "--font-open-sans",
   subsets: ["latin"],
   weight: ["400", "500", "700"],
 });
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ubuntu.variable} antialiased`}>{children}</body>
+      <body className={`${openSans.variable} antialiased`}>{children}</body>
     </html>
   );
-}
+};

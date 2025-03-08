@@ -5,22 +5,22 @@ import { ItemMenu } from "./itemMenu";
 const menuItems = [
   {
     url: "/",
-    title: "Início",
+    title: "Home",
     dropdown: false,
   },
   {
-    url: "/produtos",
+    url: "/",
     title: "Produtos",
     dropdown: true,
   },
   {
-    url: "/recursos",
-    title: "Recursos",
+    url: "/",
+    title: "Resources",
     dropdown: true,
   },
   {
-    url: "/precos",
-    title: "Preços",
+    url: "/",
+    title: "Pricing",
     dropdown: false,
   },
 ];
@@ -29,11 +29,11 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full h-[80px] bg-white border-b border-b-gray-100 flex items-center">
       <GridContainer className="flex items-center justify-between">
-        <div className="flex items-center gap-10">
+        <div className="flex items-center gap-20">
           {/* Logo */}
           <Image
             src="/logo.svg"
-            width={50}
+            width={45}
             height={32}
             alt="Logo Untitled UI"
           />
@@ -49,9 +49,6 @@ export function Header() {
               />
             ))}
           </nav>
-        </div>
-        <div>
-          <Image src="/avatar.svg" height={50} width={50} alt="User Icon" />
         </div>
       </GridContainer>
     </header>
