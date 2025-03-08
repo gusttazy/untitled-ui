@@ -37,17 +37,12 @@ export function Header() {
             alt="Logo Untitled UI"
           />
           <nav className="flex items-center gap-8">
-            {menuItems.map(({ url, title, dropdown }, index) => (
-              <ItemMenu
-                key={index}
-                url={url}
-                title={title}
-                hasDropdown={dropdown}
-              />
+            {menuItems.map(({ url, title }, index) => (
+              <ItemMenu key={index} url={url} title={title} />
             ))}
           </nav>
         </div>
       </GridContainer>
     </header>
   );
-};
+}

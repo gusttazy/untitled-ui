@@ -8,7 +8,8 @@ export const TagFeature = () => {
       </span>
       <a
         href="#"
-        className="flex items-center gap-1 text-sm/6 font-medium text-gray-800 hover:opacity-80 transition-opacity">
+        className="flex items-center gap-1 text-sm/6 font-medium text-gray-800 hover:opacity-80 transition-opacity"
+      >
         Check out the team dashboard
         <RiArrowRightUpLine size={18} />
       </a>
