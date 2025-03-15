@@ -5,7 +5,7 @@ import { FiBarChart2, FiMail, FiZap } from "react-icons/fi";
 
 export function Details() {
   return (
-    <section className="py-24">
+    <section className="pt-24">
       <GridContainer>
         <div className="text-center mb-16">
           <span className="inline-block py-1 px-3 text-sm text-[#6246ea] font-medium rounded-2xl bg-[#f5f5ff]">
@@ -28,7 +28,6 @@ export function Details() {
             alt="Screen Mockup"
             className="absolute top-0 right-0"
           />
-          a
           <Image
             src="/iphone-mockup.svg"
             width={244}
@@ -59,6 +58,7 @@ export function Details() {
             />
           </div>
         </div>
+        <hr className="border border-gray-200 mt-24" />
       </GridContainer>
     </section>
   );

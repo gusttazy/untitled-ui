@@ -11,7 +11,7 @@ import { ItemFeature } from "./itemFeature";
 
 export function Features() {
   return (
-    <section className="py-24">
+    <section className="pt-24">
       <GridContainer>
         <div className="text-center mb-16">
           <span className="inline-block py-1 px-3 text-sm text-[#6246ea] font-medium mb-3 rounded-2xl bg-[#f5f5ff]">
@@ -58,6 +58,7 @@ export function Features() {
             text="We’re an extension of your customer service team, and all of our resources are free. Chat to our friendly team 24/7 when you need help."
           />
         </div>
+        <hr className="mt-24 border border-gray-200" />
       </GridContainer>
     </section>
   );
