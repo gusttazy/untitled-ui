@@ -31,9 +31,9 @@ export function Header() {
       <GridContainer className="flex items-center justify-center">
         <div className="flex items-center gap-10">
           <Image
-            src="/logo.svg"
-            width={45}
-            height={32}
+            src="/logomark.svg"
+            width={50}
+            height={50}
             alt="Logo Untitled UI"
           />
           <nav className="flex items-center gap-8">

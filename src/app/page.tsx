@@ -4,6 +4,7 @@ import { Hero } from "@/components/Hero";
 import { Features } from "@/components/Features";
 import { Details } from "@/components/Details";
 import { Questions } from "@/components/Questions";
+import { Launch } from "@/components/Launch";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Features />
       <Details />
       <Questions />
+      <Launch />
     </>
   );
 }
