@@ -16,7 +16,7 @@ export function Question({ title, response }: QuestionProps) {
   }
 
   return (
-    <div className="w-full first:pt-0 pt-6 pb-8">
+    <div className="w-full first:pt-0 last:pb-0 pt-6 pb-8">
       <button
         className="w-full flex items-center justify-between"
         onClick={handleOpenQuestion}
