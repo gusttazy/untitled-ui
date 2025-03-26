@@ -44,4 +44,4 @@ export function Question({ title, response }: QuestionProps) {
       </div>
     </div>
   );
-}
+};
